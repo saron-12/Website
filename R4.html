@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Room 4: Final Control Center</title>
+</head>
+
+<body>
+
+<header>
+    <h1>Level 4: Final Control Center</h1>
+    <nav>
+    <a href="R1.html">Entry</a> |
+    <a href="R2.html">Navigation hall</a> |
+    <a href="R3.html">Media Gallery</a> |
+    <a href="R4.html">Control Center</a>
+
+</nav>
+    <h3>The last system chamber. Use the recovery tools to restore the lost website.</h3>
+    <hr>
+</header>
+
+<main>
+
+    <div>
+        <h2>Restoration Panel</h2>
+        <p>
+            Website Status:
+            <span >Ready for Recovery</span>
+        </p>
+
+        <p><big>System Recovery:</big> <progress value="100" max="100"></progress>
+        100%</p>
+    </div>
+
+    <hr>
+
+    <div>
+        <h2>Recovery Logs</h2>
+
+        <details>
+            <summary>Open Final System Logs</summary>
+
+<pre>
+ROOM 1 .......... Formatting Restored
+ROOM 2 .......... Navigation Repaired
+ROOM 3 .......... Media Files Recovered
+ROOM 4 .......... Final Launch Ready
+</pre>
+
+        </details>
+    </div>
+
+    <hr>
+
+    <div>
+        <h2>Administrator Command</h2>
+        <form>
+
+<label for="admin">Enter Admin Name:</label>
+<input type="text" id="admin" name="admin">
+
+<br><br>
+
+<label for="email">Admin Email:</label>
+<input type="email" id="email" name="email">
+
+<br><br>
+
+<label for="date">Launch Date:</label>
+<input type="date" id="date" name="date">
+
+<br><br>
+
+<label for="color">Choose Theme Color:</label>
+<input type="color" id="color" name="color">
+
+<br><br>
+
+<label for="number">Recovery Attempts:</label>
+<input type="number" id="number" name="number" min="1" max="10">
+
+<br><br>
+
+<label for="range">System Power Level:</label>
+<input type="range" id="range" name="range" min="0" max="100">
+
+<br><br>
+
+<label for="search">Search Backup Files:</label>
+<input type="search" id="search" name="search">
+
+<br><br>
+
+<label for="url">Website URL:</label>
+<input type="url" id="url" name="url">
+
+<br><br>
+
+<label for="mode">Choose Launch Mode:</label>
+<input list="modes" id="mode">
+<datalist id="modes">
+<option value="Safe Mode"> </option>
+<option value="Normal Launch"></option>
+<option value="Full Restore"></option>
+</datalist>
+
+
+<br><br>
+
+
+<label>Select Recovery Tools:</label><br>
+<input type="checkbox"> Firewall
+<input type="checkbox"> Backup Drive
+<input type="checkbox"> Antivirus
+
+<br><br>
+
+<label>Select Access Level:</label><br>
+<input type="radio" name="access"> Admin
+<input type="radio" name="access"> User
+<input type="radio" name="access"> Guest
+
+<br><br>
+
+<label for="dept">Choose Department:</label>
+<select id="dept">
+
+<optgroup label="Technical">
+<option>Frontend</option>
+<option>Backend</option>
+<option>Database</option>
+</optgroup>
+
+<optgroup label="Security">
+<option>Audit</option>
+<option>Recovery</option>
+<option>Monitoring</option>
+</optgroup>
+
+</select>
+
+<br><br>
+
+<label for="note">Final Message:</label><br>
+<textarea id="note" rows="5" cols="40"></textarea>
+
+<br><br>
+
+<button type="submit">Launch Website</button>
+
+</form>
+
+        </div>
+
+    <hr>
+
+    <div>
+        <h2>System Note</h2>
+
+        <p>
+            All major tags were recovered:
+            <code>&lt;nav&gt;</code>,
+            <code>&lt;a&gt;</code>,
+            <code>&lt;main&gt;</code>,
+            <code>&lt;img&gt;</code>,
+            <code>&lt;audio&gt;</code>,
+            
+        </p>
+
+        <p>
+            Recovery completed at
+            <input type="date" name="date">
+        </p>
+    </div>
+
+</main>
+
+<footer>
+    <hr>
+    <p><big>Escape Progress:</big> <meter min="0" max="100" value="100"></meter> 100%</p>
+
+    <p align="center">
+        <small>Room 4 of 4 | Final Control Center</small>
+    </p>
+
+    <p align="center"><strong>WEBSITE SUCCESSFULLY RESTORED </strong></p>
+</footer>
+
+</body>
+</html>
